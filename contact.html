@@ -5,42 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="topnav">
-        <div class="name">
-            <span class="Name">Jay Miller</span>
+    <header id="mainheader">
+        <div class="container">
+            <a href="" id="logo">Jay Miller</a>
         </div>
-        <span><a href="index.html">About</a></span>
-        <a class="active" href="contact.html">Contact</a>
-        <span><a href="portfolio.html">Portfolio</a></span>
+        <nav>
+            <a class="active" href="index.html">About</a>
+            <a href="">|</a>
+            <a href="contact.html">Contact</a>
+            <a href="">|</a>
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+    </header>
 
-    </div>
-    <div class="main-container">
-        <div>
-            <h1>Contact</h1>
+    
+        <div class="main-container">
+            <div>
+                <h1>Contact</h1>
+            </div>
+            <br class="br-line">
+            <!--form-->
+            <div>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text">
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email">
+                    <br>
+                    <label for="text">message</label><br>
+                    <input type="text"><br>
+                    <br>
+                    <input type="submit">
+
+                </form>
+
+            </div>
         </div>
-        <br class="br line">
-        <!--form-->
-        <div>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text">
-                <br>
-                <label for="email">Email:</label><br>
-                <input type="email">
-                <br>
-                <label for="text">message</label><br>
-                <input type="text"><br>
-                <br>
-                <input type="submit">
 
-            </form>
+        <div id="footer">
+            <footer id="text">Jay Miller</footer>
+    
+        </div>    
 
-        </div>
-    </div>
 
 </body>
 
