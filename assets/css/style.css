@@ -147,5 +147,84 @@ margin-top:25px;
     
 }
 
+.form {
+ text-align: center;
+ text-decoration:none;
+
+}
+
+.input {
+    width:700px;
+    height: 30px;
+    border-color: #4aaaa5;
+    z-index:99;
+    border-bottom:2px solid #cccccc;
+    border-radius: 25px;
+
+}
+
+.message {
+    height: 300px;
+    width: 700px;
+    border-color: #4aaaa5;
+    z-index: 99;
+    border-bottom:2px solid #cccccc;
+    border-radius: 25px;
+}
+
+#photosection {
+    background-color:white;
+    position: relative;
+    margin: 15px 30px 0 30px;
+    height:auto;
+    
+
+}
+
+#mainfooter {
+    background-color: #ffffff;
+    width:100%; 
+    overflow:auto;
+    border-top: 2px solid #cccccc;
+    margin-top: 25px;
+    position:relative;
+    left:0;
+    bottom:0;
+    margin-top:50px;
+
+}
 
 
+
+.img {
+    width:300px;
+    height:350px;
+    margin: 10px 25px 30px 15px;
+    
+}
+#img1{
+    margin:50px;
+    
+}
+
+#img2 {
+    margin:50px;
+
+}
+
+#img3 {
+    margin:50px;
+    clear: right;
+
+}
+
+#img4{
+    
+    margin-left: 180px;
+    
+}
+
+#img5 {
+    margin-left:150px;
+    
+}
